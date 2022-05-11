@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(238,174,202);
+}
+
+.barra{
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    width: 30%;
+    padding: 1px;
+    margin: auto;
+}
+
+.barra li{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    display: inline-flex;
+}
+
+.contenedor{
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.contenedor div{
+    width: 250px;
+    height: 200px;
+    background-color:rgb(34,193,195);
+    margin: 10px;
+    justify-content: center;
+    font-size: 30px;
+}
